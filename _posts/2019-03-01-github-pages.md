@@ -22,11 +22,10 @@ Contents:
 
 ## Software used
 
-- Linux
-- GNU bash, version 4.4.19(1)-release
+- GNU Bash
 - [Git](https://git-scm.com) version 2.19.1
 
-## The procedure
+## Method
 
 Login to [GitHub](https://github.com/). 
 If you do not already have an account then you'll need to review their terms of service and create one.
@@ -35,8 +34,10 @@ The shell output below adds a user site to be hosted on [GitHub Pages](https://p
 Start with a basic [hello world](https://guides.github.com/activities/hello-world) site consisting of a README.md and an index.html page.
 You could commit the code to into Git version control on your "master" (default) branch which will automatically be published.
 
-There is nothing new here, the links above should give you all the latest detailed up-to-date information on how to do this!
-But the shell output below documents an example approach for creating a public (open source) user site.
+## Example command log 
+
+There is nothing new here, the links in the method above should give you all the latest detailed up-to-date information on how to do this!
+But the shell output below logs an example approach for creating a public (open source) user site.
 
 {% highlight shell %}
 # Login to GitHub https://github.com/

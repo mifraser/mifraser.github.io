@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Matt Fraser's Software Notes
+title: Matt's Software Engineering Notes
 #email: your-email@example.com
 
 # Write an awesome description for your new site here. You can edit this
@@ -33,6 +33,10 @@ markdown: kramdown
 theme: minima 
 plugins:
   - jekyll-feed
+
+header_pages:
+ - about.md
+ - portfolio.md
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
