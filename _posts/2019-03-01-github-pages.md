@@ -6,9 +6,9 @@ date:   2019-03-01 15:23:31 -0600
 categories: git
 ---
 
-In this post I'll describe how to create a basic "Hello World" HTML page and publish the static website on GitHub Pages for public viewing.
+This post covers how to create a basic "Hello, world!" HTML page and publish the static website on GitHub Pages for public viewing.
 This could be the first step towards producing a static website. 
-Something like this blog for example!   
+Something like this one for example!   
 
 Contents:
 * TOC
@@ -16,12 +16,13 @@ Contents:
 
 ## Tasks involved
 
-- Develop a basic "Hello World" HTML page
-- Create a new public Git repository on GitHub
-- Host the new website on GitHub pages and publish
+- Develop a basic "Hello, world!" HTML page
+- Create a new Git repository on GitHub
+- Publish the new website on GitHub pages
 
 ## Software used
 
+- Linux
 - GNU Bash
 - [Git](https://git-scm.com) version 2.19.1
 
@@ -30,13 +31,13 @@ Contents:
 Login to [GitHub](https://github.com/). 
 If you do not already have an account then you'll need to review their terms of service and create one.
 
-The shell output below adds a user site to be hosted on [GitHub Pages](https://pages.github.com/) named "username.github.io".
+Add a user site to be hosted on [GitHub Pages](https://pages.github.com/) named "username.github.io" **where "username" exactly matches your GitHub username**.
 Start with a basic [hello world](https://guides.github.com/activities/hello-world) site consisting of a README.md and an index.html page.
-You could commit the code to into Git version control on your "master" (default) branch which will automatically be published.
+When the code is commited and pushed into Git version control on the "master" branch it will be published automatically.
 
 ## Example command log 
 
-There is nothing new here, the links in the method above should give you all the latest detailed up-to-date information on how to do this!
+The method above should give you all the latest detailed up-to-date information on how to do this.
 But the shell output below logs an example approach for creating a public (open source) user site.
 
 {% highlight shell %}
@@ -54,7 +55,7 @@ $ ls
 README.md
 
 # Create the basic index HTML page
-$ echo "Hello World" > index.html
+$ echo "Hello, world!" > index.html
 
 $ git status
 On branch master
@@ -74,5 +75,5 @@ $ git commit -m "Initial commit"
 $ git push -u origin master
 {% endhighlight %}
 
-You should now be able to view your https://username.github.io site in a web browser and see the "Hello World" text.
+You should now be able to view your https://username.github.io site in a web browser and see "Hello, world!".
 Any code commited and pushed to the "master" branch is automatically published.

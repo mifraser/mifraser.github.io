@@ -6,7 +6,7 @@ date:   2019-03-03
 categories: git
 ---
 
-Tag our first release on Git! 
+Tag a first release on Git! 
 
 Contents:
 * TOC
@@ -16,7 +16,7 @@ Contents:
 
 - Deciding on a version numbering strategy
 - Creating a Git tag
-- Removing/replacing a Git tag
+- Optional: Removing/replacing a Git tag
 
 ## Software used
 
@@ -25,7 +25,9 @@ Contents:
 
 ## A version numbering strategy
 
-Consider adhering to [semantic versioning](https://semver.org/). 
+Consider adhering to [semantic versioning](https://semver.org/).
+Start with 0.1.0.
+The first official (non-beta) public release is 1.0.0.
 
 ## Common Git tasks
 ### Create a Git tag
@@ -33,8 +35,9 @@ Consider adhering to [semantic versioning](https://semver.org/).
 Official [Git tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging) documentation.
 Say we are following on from the previous post where we [initialised a static hello world website]({{ site.baseurl }}{% post_url 2019-03-01-github-pages %}). 
 This code is on the "master" branch and is already live, published and hosted on GitHub Pages.
-So let's tag this first version as "0.1.0". 
+So tag this first version as "0.1.0".
 
+An example command log: 
 {% highlight shell %}
 $ pwd
 /hdd/github-projects/username.github.io
@@ -62,7 +65,7 @@ $ git push origin --tags
 
 ### Removing/Replacing a Git tag
 
-What if you made an error and want to re-tag? For example we added a tag "v0.1" and want to replace it with "0.1.0"?
+Optional: What if you made an error and want to re-tag? For example we added a tag "v0.1" and want to replace it with "0.1.0"?
 
 {% highlight shell %}
 $ git branch
