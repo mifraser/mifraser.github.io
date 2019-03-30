@@ -1,5 +1,5 @@
 ---
-published: true 
+published: false 
 layout: post
 title:  "Git tagging and a versioning strategy"
 date:   2019-03-03
