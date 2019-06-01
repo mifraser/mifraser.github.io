@@ -5,6 +5,8 @@
 layout: home
 ---
 
-Welcome to Matt Fraser's portfolio website and blog.
+Welcome to Matt's Software Engineering Notes!
+Below are a number of blog articles that help document the evolution of some personal projects.
+You may also read [about](/about) the goals of this website and view a [portfoilio](/portfolio) of my work. 
 
-This website is still considered work in progress.
+This website is considered work in progress.

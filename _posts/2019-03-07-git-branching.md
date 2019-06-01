@@ -1,5 +1,5 @@
 ---
-published: false 
+published: true 
 layout: post
 title:  "Git branching and stashing"
 date:   2019-03-07

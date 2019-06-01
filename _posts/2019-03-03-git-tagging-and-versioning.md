@@ -1,5 +1,5 @@
 ---
-published: false 
+published: true 
 layout: post
 title:  "Git tagging and a versioning strategy"
 date:   2019-03-03
@@ -27,15 +27,15 @@ Contents:
 
 Consider adhering to [semantic versioning](https://semver.org/).
 Start with 0.1.0.
-The first official (non-beta) public release is 1.0.0.
+The first official (non-beta) public release will be 1.0.0.
 
 ## Common Git tasks
 ### Create a Git tag
 
-Official [Git tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging) documentation.
-Say we are following on from the previous post where we [initialised a static hello world website]({{ site.baseurl }}{% post_url 2019-03-01-github-pages %}). 
+In the previous post we [initialised a static hello world website]({{ site.baseurl }}{% post_url 2019-03-01-github-pages %}). 
 This code is on the "master" branch and is already live, published and hosted on GitHub Pages.
-So tag this first version as "0.1.0".
+So now we'll tag this first version as "0.1.0".
+Further details can befound in the official [Git tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging) documentation.
 
 An example command log: 
 {% highlight shell %}

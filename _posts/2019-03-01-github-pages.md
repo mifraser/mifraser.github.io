@@ -8,7 +8,7 @@ categories: git
 
 This post covers how to create a basic "Hello, world!" HTML page and publish the static website on GitHub Pages for public viewing.
 This could be the first step towards producing a static website. 
-Something like this one for example!   
+Something like this very website for example!   
 
 Contents:
 * TOC
@@ -37,8 +37,8 @@ When the code is commited and pushed into Git version control on the "master" br
 
 ## Example command log 
 
-The method above should give you all the latest detailed up-to-date information on how to do this.
-But the shell output below logs an example approach for creating a public (open source) user site.
+The method described above should give you all the necessary information on how to do this.
+But at the time of writing, the shell output below gives an example approach for creating a public (open source) user site:
 
 {% highlight shell %}
 # Login to GitHub https://github.com/
