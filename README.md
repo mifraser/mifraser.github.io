@@ -29,7 +29,7 @@ Now open the application in your web browser:
 
 Website home page:
 
-![Screenshot]({{ site.baseurl }}/assets/images/home_screenshot.png)
+![Screenshot](/assets/images/home_screenshot.png)
 
 ## Further Information
 
